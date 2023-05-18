@@ -1,0 +1,12 @@
+numero = int(input("Digite um número maior que 1:"))
+
+contador = 1
+soma = 0
+
+for conatdor in range(numero):
+    print(contador)
+
+    soma += contador
+    contador += 1
+
+print(f"A soma de 1 até {numero} é de: {soma}")
